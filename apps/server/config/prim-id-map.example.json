@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "lineIds": {
+    "STIF:Line::C01371:": "metro-1"
+  },
+  "stopIds": {
+    "STIF:StopPoint:Q:463193:": "idfm-71517",
+    "STIF:StopPoint:Q:463149:": "idfm-71634"
+  }
+}

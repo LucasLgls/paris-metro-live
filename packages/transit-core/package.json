@@ -1,0 +1,22 @@
+{
+  "name": "@paris-transit/transit-core",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./display": "./src/display.ts"
+  },
+  "scripts": {
+    "build": "tsc --noEmit",
+    "lint": "eslint src",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@paris-transit/contracts": "0.1.0"
+  },
+  "devDependencies": {
+    "vitest": "3.2.7"
+  }
+}

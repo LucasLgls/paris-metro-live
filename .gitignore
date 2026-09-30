@@ -1,0 +1,14 @@
+node_modules/
+dist/
+coverage/
+playwright-report/
+test-results/
+*.log
+.DS_Store
+
+# Secrets and provider data that must stay local.
+.env
+.env.*.local
+!.env.example
+apps/server/config/prim-id-map.json
+data/downloads/

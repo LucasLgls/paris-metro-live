@@ -1,0 +1,286 @@
+:root {
+  color: #10243b;
+  background: #fbfaf6;
+  font-family: Inter, "Segoe UI", Arial, sans-serif;
+  font-synthesis: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root,
+.map-page,
+.map-shell,
+.transit-map {
+  width: 100%;
+  height: 100%;
+}
+
+html,
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+button,
+a {
+  font: inherit;
+}
+
+.map-page,
+.map-shell {
+  position: relative;
+}
+
+.map-page {
+  min-height: 100dvh;
+  background: #fbfaf6;
+}
+
+.map-loading {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  place-items: center;
+  padding: 24px;
+  color: #526274;
+  font-size: 14px;
+  text-align: center;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.feed-status {
+  position: absolute;
+  z-index: 4;
+  top: max(12px, env(safe-area-inset-top));
+  right: max(12px, env(safe-area-inset-right));
+  width: 12px;
+  height: 12px;
+  pointer-events: none;
+}
+
+.feed-status__dot {
+  display: block;
+  width: 12px;
+  height: 12px;
+  border: 2px solid #fbfaf6;
+  border-radius: 50%;
+  background: #d64242;
+}
+
+.feed-status--healthy .feed-status__dot {
+  background: #2da84a;
+}
+
+.feed-status--degraded .feed-status__dot {
+  background: #d89218;
+}
+
+.feed-status--no_service .feed-status__dot {
+  background: #7b8794;
+}
+
+.zoom-controls {
+  position: absolute;
+  z-index: 4;
+  right: max(16px, env(safe-area-inset-right));
+  bottom: calc(20px + env(safe-area-inset-bottom));
+  display: grid;
+  gap: 6px;
+}
+
+.zoom-controls button {
+  display: grid;
+  width: 44px;
+  height: 44px;
+  padding: 0 0 2px;
+  place-items: center;
+  border: 1.5px solid #10243b;
+  border-radius: 6px;
+  color: #10243b;
+  background: rgb(251 250 246 / 92%);
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.zoom-controls button:hover {
+  background: #fff;
+}
+
+.zoom-controls button:focus-visible,
+.map-attribution a:focus-visible,
+.credits-card a:focus-visible {
+  outline: 3px solid #1769aa;
+  outline-offset: 2px;
+}
+
+.zoom-controls button:disabled {
+  opacity: 0.42;
+  cursor: default;
+}
+
+.map-attribution {
+  position: absolute;
+  z-index: 4;
+  left: max(8px, env(safe-area-inset-left));
+  bottom: calc(6px + env(safe-area-inset-bottom));
+  color: #526274;
+  background: rgb(251 250 246 / 82%);
+  font-size: 9px;
+  line-height: 1.4;
+  text-decoration: none;
+}
+
+.map-attribution a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.map-attribution a:hover {
+  text-decoration: underline;
+}
+
+.credits-page {
+  height: 100%;
+  min-height: 100%;
+  padding: 32px 20px 64px;
+  overflow: auto;
+  color: #10243b;
+  background: #fbfaf6;
+}
+
+.credits-card {
+  width: min(680px, 100%);
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.credits-card h1 {
+  margin: 24px 0 16px;
+  font-size: clamp(32px, 7vw, 48px);
+  line-height: 1.05;
+}
+
+.credits-card h2 {
+  margin: 32px 0 8px;
+  font-size: 20px;
+}
+
+.credits-card p {
+  margin: 0 0 16px;
+}
+
+.credits-card a {
+  color: #075ea8;
+}
+
+.credits-back {
+  display: inline-block;
+  font-weight: 650;
+  text-decoration: none;
+}
+
+.station-label {
+  max-width: 180px;
+  color: #10243b;
+  font-size: 11px;
+  font-weight: 650;
+  line-height: 1.05;
+  text-align: center;
+  white-space: nowrap;
+  pointer-events: none;
+  -webkit-text-stroke: 3px #fbfaf6;
+  paint-order: stroke fill;
+}
+
+.station-label--overview {
+  font-size: 12px;
+  font-weight: 720;
+}
+
+.station-label.is-hidden {
+  display: none;
+}
+
+.line-badge {
+  display: grid;
+  min-width: 22px;
+  height: 22px;
+  padding: 0 5px;
+  place-items: center;
+  border: 2px solid #fbfaf6;
+  border-radius: 11px;
+  box-shadow: 0 0 0 1px rgb(16 36 59 / 55%);
+  font-size: 11px;
+  font-weight: 800;
+  line-height: 1;
+  pointer-events: none;
+}
+
+.train-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.map-shell--overview .line-badge {
+  min-width: 19px;
+  height: 19px;
+  padding: 0 3px;
+  border-width: 1.5px;
+  border-radius: 10px;
+  font-size: 10px;
+}
+
+.maplibregl-canvas:focus-visible {
+  outline: 3px solid #1769aa;
+  outline-offset: -3px;
+}
+
+@media (min-width: 800px) {
+  .station-label {
+    font-size: 12px;
+  }
+
+  .station-label--overview {
+    font-size: 14px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}
+
+@media (forced-colors: active) {
+  .feed-status__dot,
+  .zoom-controls button {
+    forced-color-adjust: none;
+  }
+}

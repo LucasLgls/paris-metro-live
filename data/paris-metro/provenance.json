@@ -1,0 +1,390 @@
+{
+  "generatedAt": "2026-09-15T00:00:00.000Z",
+  "geometries": [
+    {
+      "directionId": "metro-1-east",
+      "gtfsShapeIds": ["IDFM:shp_1_111"],
+      "representativeTripId": "IDFM:RATP:COU_RATP_01DIADELAIDE_2026_LaDe01Vinc11-11",
+      "routeId": "IDFM:C01371",
+      "tracePartIndex": 0,
+      "traceReversed": true
+    },
+    {
+      "directionId": "metro-1-west",
+      "gtfsShapeIds": ["IDFM:shp_1_48"],
+      "representativeTripId": "IDFM:RATP:COU_RATP_01DIADELAIDE_2026_LaDe01Vinc11-12",
+      "routeId": "IDFM:C01371",
+      "tracePartIndex": 0,
+      "traceReversed": false
+    },
+    {
+      "directionId": "metro-2-pattern-4faf1be8e1",
+      "gtfsShapeIds": ["IDFM:shp_1_190"],
+      "representativeTripId": "IDFM:RATP:COU_RATP_02DICROCUS_2026_Daup01Daup04-10",
+      "routeId": "IDFM:C01372",
+      "tracePartIndex": 0,
+      "traceReversed": false
+    },
+    {
+      "directionId": "metro-2-pattern-d81f6be11c",
+      "gtfsShapeIds": ["IDFM:shp_1_157"],
+      "representativeTripId": "IDFM:RATP:COU_RATP_02DICROCUS_2026_Daup01Daup04-11",
+      "routeId": "IDFM:C01372",
+      "tracePartIndex": 0,
+      "traceReversed": true
+    },
+    {
+      "directionId": "metro-3-pattern-ddcd33faf3",
+      "gtfsShapeIds": ["IDFM:shp_1_73"],
+      "representativeTripId": "IDFM:RATP:COU_RATP_03DILAUTREC1_2026_Cham01Gall05-10",
+      "routeId": "IDFM:C01373",
+      "tracePartIndex": 3,
+      "traceReversed": true
+    },
+    {
+      "directionId": "metro-3-pattern-6fa6590606",
+      "gtfsShapeIds": ["IDFM:shp_1_169"],
+      "representativeTripId": "IDFM:RATP:COU_RATP_03DILAUTREC1_2026_Cham01Gall05-11",
+      "routeId": "IDFM:C01373",
+      "tracePartIndex": 3,
+      "traceReversed": false
+    },
+    {
+      "directionId": "metro-3bis-pattern-f4d1be2772",
+      "gtfsShapeIds": ["IDFM:shp_1_64"],
+      "representativeTripId": "IDFM:RATP:COU_RATP_3BDIDUTRONC3_2026_Ga3b01Ga3b01-1",
+      "routeId": "IDFM:C01386",
+      "tracePartIndex": 1,
+      "traceReversed": false
+    },
+    {
+      "directionId": "metro-3bis-pattern-a50e2eb554",
+      "gtfsShapeIds": ["IDFM:shp_1_181"],
+      "representativeTripId": "IDFM:RATP:COU_RATP_3BDIDUTRONC3_2026_Ga3b01Ga3b01-10",
+      "routeId": "IDFM:C01386",
+      "tracePartIndex": 1,
+      "traceReversed": true
+    },
+    {
+      "directionId": "metro-4-pattern-fd35438720",
+      "gtfsShapeIds": ["IDFM:shp_1_186"],
+      "representativeTripId": "IDFM:RATP:COU_RATP_04DIDANXIA3_2026_Bagl01Clig17-29",
+      "routeId": "IDFM:C01374",
+      "tracePartIndex": 0,
+      "traceReversed": false
+    },
+    {
+      "directionId": "metro-4-pattern-92143d4d2f",
+      "gtfsShapeIds": ["IDFM:shp_1_9"],
+      "representativeTripId": "IDFM:RATP:COU_RATP_04DIDANXIA3_2026_Bagl01Clig17-4",
+      "routeId": "IDFM:C01374",
+      "tracePartIndex": 0,
+      "traceReversed": true
+    },
+    {
+      "directionId": "metro-5-pattern-cce15ea0d8",
+      "gtfsShapeIds": ["IDFM:shp_1_168"],
+      "representativeTripId": "IDFM:RATP:COU_RATP_05DIAMBRE_2026_Bobi01Bobi11-10",
+      "routeId": "IDFM:C01375",
+      "tracePartIndex": 0,
+      "traceReversed": true
+    },
+    {
+      "directionId": "metro-5-pattern-10adeac559",
+      "gtfsShapeIds": ["IDFM:shp_1_28"],
+      "representativeTripId": "IDFM:RATP:COU_RATP_05DIAMBRE_2026_Bobi01Bobi11-1",
+      "routeId": "IDFM:C01375",
+      "tracePartIndex": 0,
+      "traceReversed": false
+    },
+    {
+      "directionId": "metro-6-pattern-79d9858b8a",
+      "gtfsShapeIds": ["IDFM:shp_1_43"],
+      "representativeTripId": "IDFM:RATP:COU_RATP_06DIBELANGER_2026_Kleb01Kleb05-10",
+      "routeId": "IDFM:C01376",
+      "tracePartIndex": 0,
+      "traceReversed": true
+    },
+    {
+      "directionId": "metro-6-pattern-3dea936ac3",
+      "gtfsShapeIds": ["IDFM:shp_1_159"],
+      "representativeTripId": "IDFM:RATP:COU_RATP_06DIBELANGER_2026_Kleb01Kleb05-11",
+      "routeId": "IDFM:C01376",
+      "tracePartIndex": 0,
+      "traceReversed": false
+    },
+    {
+      "directionId": "metro-7-pattern-ffce7ee93e",
+      "gtfsShapeIds": ["IDFM:shp_1_273"],
+      "representativeTripId": "IDFM:RATP:COU_RATP_07DIROITELET_2026_Arag01Vill03-1",
+      "routeId": "IDFM:C01377",
+      "tracePartIndex": 4,
+      "traceReversed": true
+    },
+    {
+      "directionId": "metro-7-pattern-f456e2c501",
+      "gtfsShapeIds": ["IDFM:shp_1_147"],
+      "representativeTripId": "IDFM:RATP:COU_RATP_07DIROITELET_2026_Arag01Vill03-17",
+      "routeId": "IDFM:C01377",
+      "tracePartIndex": 0,
+      "traceReversed": true
+    },
+    {
+      "directionId": "metro-7-pattern-d37bb984de",
+      "gtfsShapeIds": ["IDFM:shp_1_113"],
+      "representativeTripId": "IDFM:RATP:COU_RATP_07DIROITELET_2026_Arag01Vill03-10",
+      "routeId": "IDFM:C01377",
+      "tracePartIndex": 4,
+      "traceReversed": false
+    },
+    {
+      "directionId": "metro-7-pattern-2da3327d67",
+      "gtfsShapeIds": ["IDFM:shp_1_117"],
+      "representativeTripId": "IDFM:RATP:COU_RATP_07DIROITELET_2026_Arag01Vill03-16",
+      "routeId": "IDFM:C01377",
+      "tracePartIndex": 0,
+      "traceReversed": false
+    },
+    {
+      "directionId": "metro-7bis-pattern-9da9e64d24",
+      "gtfsShapeIds": ["IDFM:shp_1_114"],
+      "representativeTripId": "IDFM:RATP:COU_RATP_7BDIMOINEAU1_2026_Gerv01Gerv03-10",
+      "routeId": "IDFM:C01387",
+      "tracePartIndex": 1,
+      "traceReversed": false
+    },
+    {
+      "directionId": "metro-7bis-pattern-30bbedd2c7",
+      "gtfsShapeIds": ["IDFM:shp_1_216"],
+      "representativeTripId": "IDFM:RATP:COU_RATP_7BDIMOINEAU1_2026_Gerv01Gerv03-1",
+      "routeId": "IDFM:C01387",
+      "tracePartIndex": 0,
+      "traceReversed": false
+    },
+    {
+      "directionId": "metro-8-pattern-13673ad501",
+      "gtfsShapeIds": ["IDFM:shp_1_171"],
+      "representativeTripId": "IDFM:RATP:COU_RATP_08DIAMTARAV2_2026_Bala01Bala04-11",
+      "routeId": "IDFM:C01378",
+      "tracePartIndex": 1,
+      "traceReversed": false
+    },
+    {
+      "directionId": "metro-8-pattern-938476a7f1",
+      "gtfsShapeIds": ["IDFM:shp_1_20"],
+      "representativeTripId": "IDFM:RATP:COU_RATP_08DIAMTARAV2_2026_Bala01Bala04-10",
+      "routeId": "IDFM:C01378",
+      "tracePartIndex": 1,
+      "traceReversed": true
+    },
+    {
+      "directionId": "metro-9-pattern-0fe3b7eb8d",
+      "gtfsShapeIds": ["IDFM:shp_1_180"],
+      "representativeTripId": "IDFM:RATP:COU_RATP_09DIMERIMEE2_2026_Clou01MieM11-10",
+      "routeId": "IDFM:C01379",
+      "tracePartIndex": 1,
+      "traceReversed": true
+    },
+    {
+      "directionId": "metro-9-pattern-89b96b8688",
+      "gtfsShapeIds": ["IDFM:shp_1_138"],
+      "representativeTripId": "IDFM:RATP:COU_RATP_09DIMERIMEE2_2026_Clou01MieM11-11",
+      "routeId": "IDFM:C01379",
+      "tracePartIndex": 1,
+      "traceReversed": false
+    },
+    {
+      "directionId": "metro-10-pattern-95713e93f6",
+      "gtfsShapeIds": ["IDFM:shp_1_27"],
+      "representativeTripId": "IDFM:RATP:COU_RATP_10DIANDERSON_2026_Aust01Aust02-10",
+      "routeId": "IDFM:C01380",
+      "tracePartIndex": 2,
+      "traceReversed": false
+    },
+    {
+      "directionId": "metro-10-pattern-dc41672f18",
+      "gtfsShapeIds": ["IDFM:shp_1_60"],
+      "representativeTripId": "IDFM:RATP:COU_RATP_10DIANDERSON_2026_Aust01Aust02-1",
+      "routeId": "IDFM:C01380",
+      "tracePartIndex": 0,
+      "traceReversed": false
+    },
+    {
+      "directionId": "metro-10-pattern-6e35240e8b",
+      "gtfsShapeIds": ["IDFM:shp_1_187"],
+      "representativeTripId": "IDFM:RATP:COU_RATP_10DIANDERSON_2026_Aute02Aust05-1",
+      "routeId": "IDFM:C01380",
+      "tracePartIndex": 1,
+      "traceReversed": false
+    },
+    {
+      "directionId": "metro-11-pattern-7e2f289071",
+      "gtfsShapeIds": ["IDFM:shp_1_225"],
+      "representativeTripId": "IDFM:RATP:COU_RATP_11DIGAILLAC_2026_Chat01Robp03-10",
+      "routeId": "IDFM:C01381",
+      "tracePartIndex": 3,
+      "traceReversed": false
+    },
+    {
+      "directionId": "metro-11-pattern-293fd582d8",
+      "gtfsShapeIds": ["IDFM:shp_1_36"],
+      "representativeTripId": "IDFM:RATP:COU_RATP_11DIGAILLAC_2026_Chat01Robp03-1",
+      "routeId": "IDFM:C01381",
+      "tracePartIndex": 3,
+      "traceReversed": true
+    },
+    {
+      "directionId": "metro-12-pattern-501cb24487",
+      "gtfsShapeIds": ["IDFM:shp_1_128"],
+      "representativeTripId": "IDFM:RATP:COU_RATP_12DIASHE1_2026_Issy02Issy08-1",
+      "routeId": "IDFM:C01382",
+      "tracePartIndex": 2,
+      "traceReversed": false
+    },
+    {
+      "directionId": "metro-12-pattern-085036ffbf",
+      "gtfsShapeIds": ["IDFM:shp_1_125"],
+      "representativeTripId": "IDFM:RATP:COU_RATP_12DIASHE1_2026_Issy01Issy07-11",
+      "routeId": "IDFM:C01382",
+      "tracePartIndex": 2,
+      "traceReversed": true
+    },
+    {
+      "directionId": "metro-13-pattern-ba72f636ba",
+      "gtfsShapeIds": ["IDFM:shp_1_65"],
+      "representativeTripId": "IDFM:RATP:COU_RATP_13DICARHAIX_2026_AGLC01Mont05-10",
+      "routeId": "IDFM:C01383",
+      "tracePartIndex": 3,
+      "traceReversed": false
+    },
+    {
+      "directionId": "metro-13-pattern-4a1c137f96",
+      "gtfsShapeIds": ["IDFM:shp_1_71"],
+      "representativeTripId": "IDFM:RATP:COU_RATP_13DICARHAIX_2026_AGLC02Mont08-10",
+      "routeId": "IDFM:C01383",
+      "tracePartIndex": 2,
+      "traceReversed": false
+    },
+    {
+      "directionId": "metro-13-pattern-36d3ad0ec0",
+      "gtfsShapeIds": ["IDFM:shp_1_12"],
+      "representativeTripId": "IDFM:RATP:COU_RATP_13DICARHAIX_2026_AGLC01Mont05-1",
+      "routeId": "IDFM:C01383",
+      "tracePartIndex": 2,
+      "traceReversed": true
+    },
+    {
+      "directionId": "metro-13-pattern-7b7e948c27",
+      "gtfsShapeIds": ["IDFM:shp_1_251"],
+      "representativeTripId": "IDFM:RATP:COU_RATP_13DICARHAIX_2026_AGLC01Mont05-11",
+      "routeId": "IDFM:C01383",
+      "tracePartIndex": 3,
+      "traceReversed": true
+    },
+    {
+      "directionId": "metro-14-pattern-b0ccf7a5f9",
+      "gtfsShapeIds": ["IDFM:shp_1_230"],
+      "representativeTripId": "IDFM:RATP:COU_RATP_14DICOSTNER02_2026_Cl1401Pl1405-11",
+      "routeId": "IDFM:C01384",
+      "tracePartIndex": 15,
+      "traceReversed": false
+    },
+    {
+      "directionId": "metro-14-pattern-7de2371c5f",
+      "gtfsShapeIds": ["IDFM:shp_1_8"],
+      "representativeTripId": "IDFM:RATP:COU_RATP_14DICOSTNER02_2026_Cl1401Pl1405-10",
+      "routeId": "IDFM:C01384",
+      "tracePartIndex": 15,
+      "traceReversed": true
+    }
+  ],
+  "rawDownloadsCommitted": false,
+  "routes": [
+    {
+      "lineId": "metro-1",
+      "routeId": "IDFM:C01371"
+    },
+    {
+      "lineId": "metro-2",
+      "routeId": "IDFM:C01372"
+    },
+    {
+      "lineId": "metro-3",
+      "routeId": "IDFM:C01373"
+    },
+    {
+      "lineId": "metro-3bis",
+      "routeId": "IDFM:C01386"
+    },
+    {
+      "lineId": "metro-4",
+      "routeId": "IDFM:C01374"
+    },
+    {
+      "lineId": "metro-5",
+      "routeId": "IDFM:C01375"
+    },
+    {
+      "lineId": "metro-6",
+      "routeId": "IDFM:C01376"
+    },
+    {
+      "lineId": "metro-7",
+      "routeId": "IDFM:C01377"
+    },
+    {
+      "lineId": "metro-7bis",
+      "routeId": "IDFM:C01387"
+    },
+    {
+      "lineId": "metro-8",
+      "routeId": "IDFM:C01378"
+    },
+    {
+      "lineId": "metro-9",
+      "routeId": "IDFM:C01379"
+    },
+    {
+      "lineId": "metro-10",
+      "routeId": "IDFM:C01380"
+    },
+    {
+      "lineId": "metro-11",
+      "routeId": "IDFM:C01381"
+    },
+    {
+      "lineId": "metro-12",
+      "routeId": "IDFM:C01382"
+    },
+    {
+      "lineId": "metro-13",
+      "routeId": "IDFM:C01383"
+    },
+    {
+      "lineId": "metro-14",
+      "routeId": "IDFM:C01384"
+    }
+  ],
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "checksums": {
+        "archive": "sha256:be2ed09f78217d4303fe66f76bea0d2498a90357b0111751072ac54be28fb709"
+      },
+      "datasetUrl": "https://prim.iledefrance-mobilites.fr/jeux-de-donnees/offre-horaires-tc-gtfs-idfm",
+      "licence": "Licence Mobilité 2.0",
+      "localArtifact": "gtfs",
+      "name": "IDFM GTFS",
+      "sourceTimestamp": "2026-09-15T00:00:00.000Z"
+    },
+    {
+      "checksum": "sha256:b10bdca53bfb9b74e6303e0b951e071e72a5e7790a0d3c598dbeedf56da69483",
+      "datasetUrl": "https://prim.iledefrance-mobilites.fr/fr/jeux-de-donnees/traces-des-lignes-de-transport-en-commun-idfm",
+      "licence": "ODbL 1.0",
+      "localArtifact": "line-traces.geojson",
+      "name": "IDFM official line traces",
+      "sourceTimestamp": "2026-09-15T00:00:00.000Z"
+    }
+  ],
+  "topologyVersion": "paris-metro-20260915-v1"
+}

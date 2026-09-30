@@ -1,0 +1,25 @@
+{
+  "name": "@paris-transit/server",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --use-system-ca --env-file-if-exists=.env --watch --import tsx src/cli.ts",
+    "start": "node --use-system-ca --env-file-if-exists=.env --import tsx src/cli.ts",
+    "build": "tsc --noEmit",
+    "lint": "eslint src",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@fastify/static": "10.1.4",
+    "@paris-transit/contracts": "0.1.0",
+    "@paris-transit/transit-core": "0.1.0",
+    "fastify": "5.12.1",
+    "tsx": "4.20.5"
+  },
+  "devDependencies": {
+    "@types/node": "24.3.0",
+    "vitest": "3.2.7"
+  }
+}
